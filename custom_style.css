@@ -37,10 +37,26 @@ a:link {
 	text-decoration: none;
 }
 
-
+h1.site-title {
+	margin: 20px 0 0 0;
+}
 
 
 /* LAYOUT */
+header.site-header {
+	height: 400px;
+	text-align: center;
+	padding: 30px 0;
+	position: relative;
+}
+
+header.site-header nav.main-navigation {
+	text-align: center;
+	background-color: #DC9191;
+	position: absolute;
+	bottom: 0;
+}
+
 .post {
 	padding: 15px;
 	margin: 10px;
