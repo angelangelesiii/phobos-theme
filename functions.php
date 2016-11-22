@@ -104,6 +104,9 @@ add_action( 'widgets_init', 'phobos_widgets_init' );
 function phobos_scripts() {
 	wp_enqueue_style( 'phobos-style', get_stylesheet_uri() );
 
+	// Fonts
+	wp_enqueue_style( 'gfonts', 'https://fonts.googleapis.com/css?family=Bitter:400,700|Hind:300,400,600' );
+
 	// Layout: content on the left sidebar on the right
 	wp_enqueue_style( 'phobos-sidebar-position', get_template_directory_uri() . '/layouts/content-sidebar.css' );
 

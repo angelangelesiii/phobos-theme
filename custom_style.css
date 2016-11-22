@@ -10,17 +10,7 @@
 }
 
 /* DEVELOPER COLORS FOR EASIER VIEWING */
-header.site-header, footer.site-footer {
-	background: #F8D6D6;
-}
 
-.post {
-	background: #C5F1D6;
-}
-
-.widget-area {
-	background: #D9D0EF;
-}
 
 /* CONTAINERS AND WRAPPERS */
 
@@ -32,38 +22,117 @@ header.site-header, footer.site-footer {
 
 /* TEXT AND LINK */
 
-a,
-a:link {
-	text-decoration: none;
+body p {
+	font-family: 'Hind', 'Arial', 'Helvetica', sans-serif;
 }
 
-h1.site-title {
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #935555;
+}
+
+a:hover {
+	color: #B37272;
+}
+
+.site-title {
 	margin: 20px 0 0 0;
 }
 
+h1, p {
+	font-family: 'Hindi', 'Arial', 'Helvetica', sans-serif;
+}
+
+
+
+
 
 /* LAYOUT */
+body {
+	background: #EEEEEE;
+}
+
+
 header.site-header {
+	background: #5E5E5E;
+	color: #FFFFFF;
 	height: 400px;
 	text-align: center;
 	padding: 30px 0;
 	position: relative;
 }
 
+header.site-header .site-title a:link,
+header.site-header .site-title a:hover,
+header.site-header .site-title a:visited {
+	color: #FFFFFF;
+	font-family: 'Hind', 'Arial', 'Helvetica', sans-serif;
+	font-size: 4rem;
+	font-weight: 300;
+	margin: 100px 0 0;
+}
+
+header.site-header p.site-description {
+	font-family: 'Hind', 'Arial', 'Helvetica', sans-serif;
+	font-size: 1.25rem;
+	margin: 0;
+}
+
+
 header.site-header nav.main-navigation {
 	text-align: center;
-	background-color: #DC9191;
+	background-color: #FFFFFF;
 	position: absolute;
 	bottom: 0;
+	border-bottom: 3px solid #E0E0E0;
+}
+
+nav.main-navigation ul.nav-menu li a:link,
+nav.main-navigation ul.nav-menu li a:visited {
+	background: #FFFFFF;
+	margin: 0;
+	padding: 20px 10px;
+	color: #595959;
+	text-transform: uppercase;
+	font-weight: 600;
+	border-bottom: 0px solid #A65A77;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+nav.main-navigation ul.nav-menu li a:hover {
+	background: #737373;
+	color: #FFFFFF;
 }
 
 .post {
-	padding: 15px;
+	background: #FFFFFF;
+	padding: 50px;
 	margin: 10px;
+	border: 1px solid #E0E0E0;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 2px 1px rgba(0,0,0,0.1);
+}
+
+.post h2.entry-title {
+	font-family: 'Bitter', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+	font-size: 2em;
+	margin: 0;
 }
 
 .widget-area {
+	background: #FFFFFF;
 	padding: 15px;
 	margin-top: 10px;
+	border: 1px solid #E0E0E0;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 2px 1px rgba(0,0,0,0.1);
 	/*margin: 10px;*/
 }
