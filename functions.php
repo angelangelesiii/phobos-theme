@@ -104,6 +104,12 @@ add_action( 'widgets_init', 'phobos_widgets_init' );
 function phobos_scripts() {
 	wp_enqueue_style( 'phobos-style', get_stylesheet_uri() );
 
+	// Layout: content on the left sidebar on the right
+	wp_enqueue_style( 'phobos-sidebar-position', get_template_directory_uri() . '/layouts/content-sidebar.css' );
+
+	// Custom Styles
+	wp_enqueue_style( 'phobos-custom-style', get_template_directory_uri() . '/custom_style.css' );
+
 	wp_enqueue_script( 'phobos-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'phobos-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );

@@ -1,0 +1,34 @@
+/*
+#	CUSTOM STYLES MADE BY ANGEL ANGELES III
+#	ALL CUSTOM STYLES NOT MADE BY AUTOMATTIC LIVE HERE
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* DEVELOPER COLORS FOR EASIER VIEWING */
+header.site-header, footer.site-footer {
+	background: #F8D6D6;
+}
+
+.post {
+	background: #C5F1D6;
+}
+
+.widget-area {
+	background: #D9D0EF;
+}
+
+/* CONTAINERS AND WRAPPERS */
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1280px;
+}
+
+/* TEXT AND LINK */
+
