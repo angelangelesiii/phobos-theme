@@ -36,3 +36,18 @@ a,
 a:link {
 	text-decoration: none;
 }
+
+
+
+
+/* LAYOUT */
+.post {
+	padding: 15px;
+	margin: 10px;
+}
+
+.widget-area {
+	padding: 15px;
+	margin-top: 10px;
+	/*margin: 10px;*/
+}
