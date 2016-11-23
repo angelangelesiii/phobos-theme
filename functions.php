@@ -105,7 +105,9 @@ function phobos_scripts() {
 	wp_enqueue_style( 'phobos-style', get_stylesheet_uri() );
 
 	// Fonts
+	wp_enqueue_script( 'fontawesome', 'https://use.fontawesome.com/a1176990c2.js');
 	wp_enqueue_style( 'gfonts', 'https://fonts.googleapis.com/css?family=Bitter:400,700|Hind:300,400,600' );
+	wp_enqueue_style( 'materialicons', 'https://fonts.googleapis.com/icon?family=Material+Icons' );
 
 	// Layout: content on the left sidebar on the right
 	wp_enqueue_style( 'phobos-sidebar-position', get_template_directory_uri() . '/layouts/content-sidebar.css' );
